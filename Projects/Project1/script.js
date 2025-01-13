@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     tasks.forEach(task => renderData(task));
 
-    todoInput.addEventListener('click', function () {
+    buttonClick.addEventListener('click', function () {
         let addTask = todoInput.value.trim();
         if (addTask === '') return;
 
@@ -18,21 +18,34 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         tasks.push(newTask);
         saveToLocal();
+        renderData(newTask);
         todoInput.value = '' //clear after adding
         console.log(tasks);
     })
 
     //retrive the data
     function renderData(task) {
-        const li = document.createElement('id');
+        const li = document.createElement('li');
         li.className = 'task-item';
         li.setAttribute("data-id", task.id)
+        if (task.completed) li.classList.add('completed');
         li.innerHTML = `
         <span>${task.text}</span>
         <button class="delete-button">delete</button>
-        `
+        `;
+        li.addEventListener('click', function (e) {
+            if (e.target.tagName === "BUTTON") return;
+            task.completed = !task.completed;
+            li.classList.toggle("completed");
+            saveToLocal();
+        });
+        li.querySelector('button').addEventListener('click', (e) => {
+            e.stopPropagation();
+            tasks = tasks.filter(t => t.id !== t.id)
+            li.remove();
+            saveToLocal();
+        })
         todoList.appendChild(li)
-
     }
 
     //save data to local storage
