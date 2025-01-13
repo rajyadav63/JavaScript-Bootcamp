@@ -30,31 +30,42 @@ Welcome to my JavaScript repository! This repository contains all my JavaScript 
 
 To clone this repository to your local machine, run:
 
-```bash
+````bash
 git clone https://github.com/raj36git/javascript-concepts-and-projects.git
 
+## **Usage**
+- Browse the `concepts` folder to explore JavaScript topics.
+- Check out the `projects` folder for hands-on implementations.
 
-Usage
-Browse the concepts folder to explore JavaScript topics.
-Check out the projects folder for hands-on implementations.
-Topics Covered
-Concepts:
-Variables and Data Types
-Functions and Closures
-Arrays and Objects
-Promises and Async/Await
-Event Handling
-DOM Manipulation
-Local Storage and Session Storage
-Projects:
-To-Do List App
-Weather App
-Calculator
-Stopwatch
-More coming soon!
-How to Run
-Clone the repository.
-Navigate to the desired folder (concept or project).
+---
+
+## **Topics Covered**
+
+### **Concepts**
+- Variables and Data Types
+- Functions and Closures
+- Arrays and Objects
+- Promises and Async/Await
+- Event Handling
+- DOM Manipulation
+- Local Storage and Session Storage
+
+### **Projects**
+- **To-Do List App**
+- **Weather App**
+- **Calculator**
+- **Stopwatch**
+- *More coming soon!*
+
+---
+
+## **How to Run**
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/raj36git/javascript-concepts-and-projects.git
+
+
+
 Open the .html file in your browser to see the output.
 Contributing
 Feel free to contribute by:
@@ -72,4 +83,4 @@ If you have any questions or suggestions, feel free to contact me:
 
 Email: vector36razz@gmail.com
 GitHub: raj36git
-```
+````
