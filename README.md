@@ -63,4 +63,8 @@ git clone https://github.com/raj36git/javascript-concepts-and-projects.git
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/raj36git/javascript-concepts-and-projects.git
+2. Navigate to the desired folder (concept or project).
+   ```bash
+   terminal cd / / ...
+3. Open the .html file in your browser to see the output.
 ````
