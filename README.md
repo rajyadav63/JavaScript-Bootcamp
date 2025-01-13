@@ -37,7 +37,6 @@ git clone https://github.com/raj36git/javascript-concepts-and-projects.git
 - Browse the `concepts` folder to explore JavaScript topics.
 - Check out the `projects` folder for hands-on implementations.
 
----
 
 ## **Topics Covered**
 
@@ -57,7 +56,6 @@ git clone https://github.com/raj36git/javascript-concepts-and-projects.git
 - **Stopwatch**
 - *More coming soon!*
 
----
 
 ## **How to Run**
 1. Clone the repository to your local machine:
