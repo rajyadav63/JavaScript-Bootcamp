@@ -39,12 +39,13 @@ document.addEventListener('DOMContentLoaded', function () {
             li.classList.toggle("completed");
             saveToLocal();
         });
-        li.querySelector('button').addEventListener('click', (e) => {
-            e.stopPropagation();
-            tasks = tasks.filter(t => t.id !== t.id)
-            li.remove();
-            saveToLocal();
-        })
+        li.querySelector('button')
+            .addEventListener('click', (event) => {
+                event.stopPropagation();
+                tasks = tasks.filter(t => t.id !== t.id)
+                li.remove();
+                saveToLocal();
+            })
         todoList.appendChild(li)
     }
 
