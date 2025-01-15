@@ -52,8 +52,7 @@ git clone https://github.com/raj36git/javascript-concepts-and-projects.git
 ### **Projects**
 - **To-Do List App**
 - **Weather App**
-- **Calculator**
-- **Stopwatch**
+- **Ecommerce App**
 - *More coming soon!*
 
 
