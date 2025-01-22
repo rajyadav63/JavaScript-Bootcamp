@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #76027e;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  position: relative;
+  display: inline-block;
+}
+
+input {
+  height: 40px;
+  width: 270px;
+  outline: none;
+  border-radius: 8px;
+  outline: none;
+  padding: 9px;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  outline: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  right: 15px;
+}
+
+button img {
+  height: 22px;
+}
+
+#message {
+  visibility: hidden;
+  /* display: none; */
+}
