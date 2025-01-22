@@ -18,6 +18,8 @@ body {
 }
 
 input {
+  background-color: #171617;
+  color: white;
   height: 40px;
   width: 270px;
   outline: none;
@@ -44,5 +46,6 @@ button img {
 
 #message {
   visibility: hidden;
+  color: white;
   /* display: none; */
 }
