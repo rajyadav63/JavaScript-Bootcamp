@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(45deg, #50550c, #2a012a);
+  color: white;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.container h1 {
+  margin-bottom: 10px;
+}
+
+.container span {
+  color: brown;
+}
+
+textarea {
+  height: 135px;
+  width: 344px;
+  background-color: transparent;
+  border-radius: 4px;
+  outline: none;
+  padding: 12px;
+  color: white;
+}
+
+.btn {
+  /* border: 2px solid red; */
+  width: 300px;
+  margin-top: 20px;
+}
+
+.btn select {
+  float: left;
+  background-color: orange;
+  width: 200px;
+  height: 26px;
+  border-radius: 5px;
+  outline: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.btn button {
+  width: 90px;
+  height: 27px;
+  background-color: brown;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn button:hover {
+  background-color: rgb(141, 7, 7);
+}
