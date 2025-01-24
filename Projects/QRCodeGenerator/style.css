@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  background-color: #242121;
+}
+
+.container {
+  width: 300px;
+  height: auto;
+  padding: 25px 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #726301;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.container p {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.container input {
+  display: inline-block;
+  width: 100%;
+  height: 38px;
+  border-radius: 10px;
+  /* margin: 10px; */
+  margin-bottom: 10px;
+  border: 2px solid #4a4949;
+  outline: none;
+  padding: 12px;
+}
+
+.container button {
+  background-color: #0c0cde;
+  color: white;
+  border: none;
+  outline: none;
+  height: 33px;
+  width: 180px;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.45);
+}
+
+.container button:hover {
+  background-color: #0303cd;
+}
+
+#qrDiv {
+  margin: 5px;
+  width: 200px;
+  max-height: 0;
+  margin-bottom: 4px;
+  overflow: hidden;
+  transition: max-height 1s;
+}
+#qrImage {
+  width: 100%;
+  padding: 10px;
+  /* height: auto; */
+  border-radius: 5px;
+}
+#qrImage.show-img {
+  max-height: 200px;
+  margin: 5px;
+}
